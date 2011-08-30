@@ -1,0 +1,12 @@
+export rvm_path="/home/hi/.rvm"
+export rvm_pretty_print_flag=1
+#プロジェクトディレクトリ移動時にrmvの自動切り替えオンオフ
+rvm_project_rvmrc=1
+
+# ホームディレクトリにこのファイルを起き、
+# プロジェクトのルートディレクトリに下記を書く。
+# project root directory
+# .rvmrc
+#    rvm 1.8.7@rails2
+#
+

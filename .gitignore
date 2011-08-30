@@ -1,0 +1,62 @@
+# GitHubでまとめられている.gitignore設定例。
+#github/gitignore - GitHub
+#https://github.com/github/gitignore
+
+
+
+#Ubuntu11.04 ホームディレクトリ用のgit設定ファイル
+#ホームディレクトリに.gitignoreを置く
+
+#この書き方をすることで、ごった返したホームディレクトリから
+#自分の指定したファイルだけ、Gitに管理させることが出来ます。
+
+# 最初に、全てのファイルを無視する。
+/*
+# さらに、ドットから始まる設定ファイルを無視する。
+/.*
+#geditのバックアップファイルを無視。
+*~
+
+#ログファイルを無効にする
+*.log
+
+# 全てのtmpディレクトリを無視する。
+tmp/
+# トップレベルのtmpディレクトリのみ無視する。
+#/tmp
+
+# しかし、"無視したくないファイル"は以下に"![ファイル名]"で指定する。
+##### Gitで管理するファイルリスト #####
+!/.gitignore
+!/.gitk
+
+!/.vim
+!/.vimrc
+!/.gvimrc
+
+!/.zshenv
+!/.zshrc
+#!/.zsh_history
+!/.bash_history
+
+!/.rvmrc
+!/.gemrc
+!/.irbrc
+!/.irb_history
+!/.rspec
+
+!/.Xmodmap
+
+!/.fonts
+
+
+# 上記に"無視したくないファイル"としてリスト化した中から、
+# さらに"無視したいファイル"を指定する。
+# bundleはコマンドでインストールできる。
+/.vim/bundle
+/.vim/backupfiles
+/.vim/doc
+/.vim/view
+
+
+
