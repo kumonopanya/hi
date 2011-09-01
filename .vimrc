@@ -1974,7 +1974,7 @@ filetype plugin on
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 "フリーカーソル
-set virtualedit=all
+"set virtualedit=all
 
 
 
@@ -2615,7 +2615,6 @@ set showtabline=2
 	silent! nmap <unique> <F5> <Plug>(quickrun)
 	"tuiki
 	silent! nmap <unique> <M-F5> ,q
-
 
 	"syntax ok なら E42エラーはありませんと表示
 	"エラーがあった場合表示＆カーソル移動してくれる。
@@ -3577,16 +3576,16 @@ let g:quickrun_config['ruby.rspec'] = {'command': "rspec"}
 
 "カーソル下の単語をK(shift-k）で引く。
 
-augroup BufferAu
-    autocmd!
-    "初期化
-    au BufEnter * nnoremap K K
-    ".rbファイルでKでRefe検索
-		"カーソル上のキーワードで検索
-    au BufEnter *.rb nnoremap <silent> K :Refe <cword><CR>
-		"コマンドラインから直接入力
-    au BufEnter *.rb nnoremap <buffer> <silent> <C-k> :Refe<Space>
-augroup END
+"augroup BufferAu
+"    autocmd!
+"    "初期化
+"    au BufEnter * nnoremap K K
+"    ".rbファイルでKでRefe検索
+"		"カーソル上のキーワードで検索
+"    au BufEnter *.rb nnoremap <silent> K :Refe <cword><CR>
+"		"コマンドラインから直接入力
+"    au BufEnter *.rb nnoremap <buffer> <silent> <C-k> :Refe<Space>
+"augroup END
 
 "q			バッファを閉じる。
 "<C-C>	バッファを閉じる。
@@ -3598,6 +3597,13 @@ augroup END
 "-			今開いているクラスのリファレンスを読む
 
 "s, <C-k>   検索
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
 
 
 
@@ -3637,8 +3643,8 @@ let g:ref_alc_start_linenumber = 39
 " 一度開いたページをキャッシュします。
 let g:ref_alc_use_cache = 1 
 
-
-
+"refeで最新のrubyマニュアルを読み込む。
+"let g:ref_refe_cmd = "~/rubyrefm/refe-1_9_2"
 
 
 
