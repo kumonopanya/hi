@@ -3574,8 +3574,8 @@ let g:quickrun_config['ruby.rspec'] = {'command': "rspec"}
 "Vimでカーソル下の単語からRubyのリファレンスを検索 - ナレッジエース
 "http://blog.blueblack.net/item_187
 
+"もう古い。
 "カーソル下の単語をK(shift-k）で引く。
-
 "augroup BufferAu
 "    autocmd!
 "    "初期化
@@ -3597,6 +3597,7 @@ let g:quickrun_config['ruby.rspec'] = {'command': "rspec"}
 "-			今開いているクラスのリファレンスを読む
 
 "s, <C-k>   検索
+
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
