@@ -1170,7 +1170,7 @@ alias 19="rvm use 1.9.2@rails3"			#gemsetにrails3を利用。
 alias 18="rvm use 1.8.7@rails2"			#gemsetにrails2を利用。
 
 #ターミナル起動時にrvmのgemetを指定。
-#18
+19
 
 alias mi6="rvm use 1.8.7@milk6"			#gemsetにmilk6を利用。
 alias mi7="rvm use 1.9.2@milk7"			#gemsetにmilk7を利用。
