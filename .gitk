@@ -1,6 +1,6 @@
-set mainfont {Helvetica 9}
-set textfont {Courier 9}
-set uifont {Helvetica 9 bold}
+set mainfont {Ricty 16}
+set textfont {Ricty 16}
+set uifont {Ricty 16 bold}
 set tabstop 8
 set findmergefiles 0
 set maxgraphpct 50
@@ -25,12 +25,12 @@ set diffcontext 3
 set selectbgcolor gray85
 set extdifftool meld
 set perfile_attrs 0
-set geometry(main) 964x662+0+0
+set geometry(main) 1323x898+0+0
 set geometry(state) normal
-set geometry(topwidth) 964
-set geometry(topheight) 240
-set geometry(pwsash0) "400 1"
-set geometry(pwsash1) "600 1"
-set geometry(botwidth) 500
-set geometry(botheight) 417
+set geometry(topwidth) 1323
+set geometry(topheight) 165
+set geometry(pwsash0) "377 1"
+set geometry(pwsash1) "573 1"
+set geometry(botwidth) 651
+set geometry(botheight) 728
 set permviews {}

@@ -30,7 +30,6 @@ tmp/
 !/.gitignore
 !/.gitk
 
-!/.vim
 !/.vimrc
 !/.gvimrc
 
@@ -50,16 +49,16 @@ tmp/
 !/.fonts
 
 
-
+#ディレクトリ
 !/refe
-
+!/.fonts
+!/.vim
 
 # 上記に"無視したくないファイル"としてリスト化した中から、
 # さらに"無視したいファイル"を指定する。
 # bundleはコマンドでインストールできる。
 /.vim/bundle
 /.vim/backupfiles
-/.vim/doc
 /.vim/view
 
 
